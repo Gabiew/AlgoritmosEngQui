@@ -1,1 +1,14 @@
+#include <stdio.h>
 
+int main(void) {
+  int a,b,c,d,R,ai,aii;
+  a=10;
+  b=20;
+  c=2;
+  d=3;
+  ai=c*d;
+  aii=a*b;
+  R=aii-ai;
+  printf("O resultado é %d",R);
+  return 0;
+}

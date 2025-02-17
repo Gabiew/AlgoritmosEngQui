@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define pi 3.14
+
+int main(void) {
+  int a,b,c,d,R,r;
+  a=10;
+  b=20;
+  c=2;
+  d=3;
+  r=3;
+  R=(a*b)-(c*d)-(pi*r*r);
+  printf("O resultado é %d",R);
+  return 0;
+}

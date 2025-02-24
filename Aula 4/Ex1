@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+  int a,b,area;
+  printf ("Entre um lado:");
+  scanf ("%i",&a);
+  printf ("Entre outro lado:");
+  scanf ("%i",&b);
+  //Calcular a área
+  area = a*b;
+  //imprimir 
+  printf ("A area do retangulo e: %i",area);
+  return 0;
+}

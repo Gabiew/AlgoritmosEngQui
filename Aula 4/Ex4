@@ -2,7 +2,7 @@
 
 int main(void) {
   int p1, p2;
-  printf ("Insira quentas peças devem ser produzidas: ");
+  printf ("Insira quantas peças devem ser produzidas: ");
   scanf ("%d", &p1);
   printf ("Insira quantas peças foram produzidas: ");
   scanf ("%d", &p2);

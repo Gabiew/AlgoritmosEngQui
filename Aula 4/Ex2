@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+  int V,R,i;
+  printf("Digite a Resistencia em Ohms: ");
+  scanf("%d",&R);
+  printf("Digite a corrente em amperes: ");
+  scanf("%d",&i);
+  V = R * i;
+  printf("A tensão é: %i\n",V);
+  return 0;
+}

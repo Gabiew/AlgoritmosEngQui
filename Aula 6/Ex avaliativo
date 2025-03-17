@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+  int marcha; // declaração de variável
+  printf("Digite o numero da marcha: "); // imprime na tela
+  scanf("%d", &marcha); // captura o valor digitado
+  switch(marcha){ // inicio do bloco de comandos
+    case 1:
+    printf ("menor que 2Km/h");
+    break;
+    case 2:
+    printf ("Maior 20Km/h e menor que 40Km/h");
+    break;
+    case 3:
+    printf ("Maior 40Km/h e menor que 60Km/h");
+    break;
+    case 4:
+    printf ("velocidade maior que 60Km/h");
+    break;
+    default:
+    printf ("marcha invalida");
+    break;
+  }
+  
+  return 0;
+//Gabriella Ludovico 1518514

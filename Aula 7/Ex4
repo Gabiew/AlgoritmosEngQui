@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int x,n;
+  for (n=1;n<=5;n++){
+    printf ("Entre com um número:\n ");
+    scanf ("%d",&x);
+    if (x>50){
+      printf ("%d\n",x);
+    }
+    else {
+      printf ("Valor fora da faixa\n");
+    }
+  }
+    
+  return 0;
+}

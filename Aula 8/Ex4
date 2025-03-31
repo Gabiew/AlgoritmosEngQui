@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int i; int v[10];
+  for (i=0; i< 10; i++) {
+    printf("Entre com valor =\n");
+    scanf("%i", &v[i]);
+  }
+  for (i=0; i< 10; i++) {
+    if (v[i]>100) {
+      printf("Valor = %i\n", v[i]);
+    }
+  }
+  return 0;
+}

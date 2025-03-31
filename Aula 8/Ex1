@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+    int continuar; float numPol;
+  continuar=1;
+  while(continuar==1){
+    printf("Digite o número em polegadas:\n");
+    scanf("%f", &numPol);
+    printf("O número em milímetros= %fmm\n", numPol*25.4);
+    printf("Deseja continuar? (0-não,1-sim)?=\n");
+    scanf("%d", &continuar);
+    
+      }
+  return 0;
+}

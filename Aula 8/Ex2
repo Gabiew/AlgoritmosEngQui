@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+   int v [6];
+  v [0]=10;
+  v [1]=14;
+  v [2]=20;
+
+  printf ("%i/n", v[0]);
+  printf ("%i/n", v[1]);
+  printf ("%i/n", v[2]);
+}
+

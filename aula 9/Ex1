@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+ int c,i;
+  int v[]={23,56,67,123,8,-1,0,0,0,0,0,0};
+  for (c=0;c<=11;c++){
+    printf ("%i\n",v[c]);
+  }
+  c=0;
+  while (v[c]!=-1){
+  printf ("%i\n",v[c]);
+  c++;
+  }
+  return 0;
+}

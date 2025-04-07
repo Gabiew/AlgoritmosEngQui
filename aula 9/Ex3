@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+ int t;
+ int Awg []={11,12,13,14,15,16,17,18,19,20};
+  float mm []={2.30,2.05,1,83,1.63,1.45,1.29,1.024,0.912,0.812};
+   printf ("Agw - mm\n");
+t=0;
+  while (t<10){
+    printf("%d = %.2f\n",Awg[t],mm[t]);
+    t++;
+  }
+  return 0;
+  
+}
